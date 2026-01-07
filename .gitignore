@@ -1,0 +1,37 @@
+# Ignore Vivado build directories
+*.runs/
+*.sim/
+*.cache/
+*.ip_user_files/
+*.hw/
+*.sdk/
+*.webtalk/
+*.jou
+*.log
+
+# Vivado temporary files
+*.str
+*.tmp
+*.bak
+
+# Generated simulation files
+*.wdb
+*.vcd
+*.saif
+xsim.dir/
+simv*
+simv.daidir/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+*.swp
+*.swo
+*.idea/
+*.vscode/
+
+# Backup files
+*~
+*.backup
